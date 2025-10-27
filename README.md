@@ -17,11 +17,11 @@ Here is an example of the model's prediction on a test image sourced from the in
 
 ## Dataset
 
-[cite_start]This model was trained on the **GeoCrack** dataset, which is a high-resolution, open-source annotated dataset of fracture traces from geological outcrops[cite: 7].
+This model was trained on the **GeoCrack** dataset, which is a high-resolution, open-source annotated dataset of fracture traces from geological outcrops.
 
-* **Source:** The dataset was developed by researchers and is detailed in the accompanying paper. [cite_start]It contains 12,158 image-mask pairs ($224 \times 224$ pixels) derived from photogrammetric surveys at 11 sites across Europe and the Middle East[cite: 10, 89].
+* **Source:** The dataset was developed by researchers and is detailed in the accompanying paper. It contains 12,158 image-mask pairs ($224 \times 224$ pixels) derived from photogrammetric surveys at 11 sites across Europe and the Middle East.
 * **Methodology:** For a complete overview of the data collection, annotation, and vetting process, please see the PDF file in this repository:
-    [cite_start]`Data/data_collection_methodology/GeoCrack A High-Resolution Dataset...pdf` [cite: 104]
+    `Data/data_collection_methodology/GeoCrack A High-Resolution Dataset...pdf` 
 
 ## Methodology
 
@@ -56,27 +56,26 @@ The project is contained in two main Jupyter notebooks:
 
 The training was performed on Kaggle to utilize its free GPU resources.
 
-1.  [cite_start]**Get the Data:** Download the [GeoCrack Dataset](https://doi.org/10.7910/DVN/E4OXHQ)[cite: 272].
+1.  **Get the Data:** Download the [GeoCrack Dataset](https://doi.org/10.7910/DVN/E4OXHQ).
 2.  **Set up Environment:** Upload the `rock_fracture_detection_ugp.ipynb` notebook to Kaggle (or any environment with PyTorch and a GPU).
 3.  **Configure Paths:** Adjust the data paths in the notebook to point to your dataset location [from: rock_fracture_detection_ugp.ipynb].
 4.  **Run:** Execute all cells in the notebook. The trained model will be saved as `unet_model.pth` [from: rock_fracture_detection_ugp.ipynb].
 
 ### 2. Testing on a New Image
 
-1.  **Get the Model:** Ensure you have the saved `unet_model.pth` file in the same directory as the `Test_for_Rock_Fracture.ipynb` notebook [from: Test_for_Rock_Fracture.ipynb].
+1.  **Get the Model:** Ensure you have the saved `unet_model.pth` file in the same directory as the `Test_for_Rock_Fracture.ipynb` notebook.
 2.  **Run:** Open and run all cells in the `Test_for_Rock_Fracture.ipynb` notebook.
-3.  **Test Your Own:** You can change the `IMAGE_URL` variable in the notebook to test any rock image from the internet [from: Test_for_Rock_Fracture.ipynb].
-
+3.  **Test Your Own:** You can change the `IMAGE_URL` variable in the notebook to test any rock image from the internet.
 ## Implementation Details
 
-* This project is implemented in **PyTorch** [from: rock_fracture_detection_ugp.ipynb].
+* This project is implemented in **PyTorch**.
 * The code is contained entirely within Jupyter Notebooks to facilitate easy execution on cloud-based GPU platforms like Kaggle or Google Colab, which was a priority due to local computational limitations.
 
 ## Acknowledgements
 
 This project was made possible by the authors of the GeoCrack dataset. Full citation:
 
-> Yaqoob, M., Ishaq, M., Ansari, M.Y. et al. GeoCrack: A High-Resolution Dataset For Segmentation of Fracture Edges in Geological Outcrops. [cite_start]*Sci Data* 11, 1318 (2024). https://doi.org/10.1038/s41597-024-04107-0 [cite: 1, 3, 5, 25]
+> Yaqoob, M., Ishaq, M., Ansari, M.Y. et al. GeoCrack: A High-Resolution Dataset For Segmentation of Fracture Edges in Geological Outcrops. *Sci Data* 11, 1318 (2024). https://doi.org/10.1038/s41597-024-04107-0.
 
 
 ## License
