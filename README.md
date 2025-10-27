@@ -10,7 +10,7 @@ The trained U-Net model successfully identifies complex fracture patterns on new
 
 Here is an example of the model's prediction on a test image sourced from the internet [from: Test_for_Rock_Fracture.ipynb]:
 
-![Model Results]
+## Model Results
 
 <img width="1125" height="289" alt="image" src="https://github.com/user-attachments/assets/6ebcf8df-98fe-4302-ae27-ef0ff504b547" />
 
@@ -78,12 +78,9 @@ This project was made possible by the authors of the GeoCrack dataset. Full cita
 
 > Yaqoob, M., Ishaq, M., Ansari, M.Y. et al. GeoCrack: A High-Resolution Dataset For Segmentation of Fracture Edges in Geological Outcrops. [cite_start]*Sci Data* 11, 1318 (2024). https://doi.org/10.1038/s41597-024-04107-0 [cite: 1, 3, 5, 25]
 
-## License
-
-This project is licensed under the [MIT License](LICENSE). (Please add a `LICENSE` file if you choose this one, or update as needed).
 
 ## License
-This project is licensed under the [MIT License](LICENSE). (Please add a `LICENSE` file if you choose this one, or update as needed).
+This project is licensed under the [MIT License](LICENSE).
 
 ## 📧 Contact
 - If you have any questions or feedback, feel free to reach out via email: pradeep18kumar10@gmail.com  
